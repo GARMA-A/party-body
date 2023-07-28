@@ -1,0 +1,52 @@
+ .rgb{
+    font-size: 3vw;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-content: center;
+   
+
+} 
+
+body{
+    animation-name: RGB;
+   animation-timing-function: linear;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+}
+.btn{
+    width:10vw;
+    height: 5vw;
+    background-color:rgb(244, 237, 112) ;
+   
+   
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.btn a{
+    text-decoration: none;
+}
+.btn h1{
+    color: black;
+}
+
+
+
+@keyframes RGB{
+    0%{
+       background-color: red;
+    }
+    50%{
+background-color: green;
+    }
+    100%{
+background-color: blue;
+    }
+
+}

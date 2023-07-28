@@ -1,0 +1,30 @@
+.rgb{
+    font-size: 3vw;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-content: center;
+   
+
+} 
+.btn{
+    width:10vw;
+    height: 5vw;
+    background-color:rgb(244, 237, 112) ;
+   
+   
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.btn a{
+    text-decoration: none;
+}
+.btn h1{
+    color: black;
+}
