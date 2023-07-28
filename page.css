@@ -1,3 +1,7 @@
+.body{
+background-color:black;
+}
+
 .rgb{
     font-size: 3vw;
     display: flex;
